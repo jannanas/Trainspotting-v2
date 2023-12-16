@@ -1,0 +1,137 @@
+City,Region,Population,Station Code
+Moscow,Central,13010112,2000000
+Saint Petersburg,Northwest,5601911,2004000
+Novosibirsk,Siberia,1633595,2044000
+Yekaterinburg,Ural,1544376,2030000
+Kazan,Volga,1308660,2060615
+Nizhny,Volga,1228199,2060000
+Chelyabinsk,Ural,1189525,2040000
+Krasnoyarsk,Siberia,1187771,2038000
+Samara,Volga,1173299,2024000
+Ufa,Volga,1144809,2024600
+Rostov-on-Don,South,1142162,2064000
+Omsk,Siberia,1125695,2044700
+Krasnodar,South,1099344,2064788
+Voronezh,Central,1057681,2014000
+Perm,Volga,1034002,2030120
+Volgograd,South,1028036,2020500
+Saratov,Volga,901361,2020000
+Tyumen,Ural,847488,2030100
+Tolyatti,Volga,684709,2024810
+Barnaul,Siberia,630877,2044800
+Izhevsk,Volga,623472,2060150
+Makhachkala,North Caucasus,623254,2064900
+Khabarovsk,Far East,617441,2034000
+Ulyanovsk,Volga,617352,2024900
+Irkutsk,Siberia,617264,2054000
+Vladivostok,Far East,603519,2034130
+Yaroslavl,Central,577279,2010000
+Kemerovo,Siberia,557119,2028000
+Tomsk,Siberia,556478,2028156
+Naberezhnye,Volga,548434,2024525
+Sevastopol,South,547820,2064700
+Stavropol,North Caucasus,547443,2064700
+Orenburg,Volga,543654,2040210
+Novokuznetsk,Siberia,537480,2028160
+Ryazan,Central,528599,2000125
+Balashikha,Central,520962,2001940
+Penza,Volga,501109,2024120
+Cheboksary,Volga,497807,2060620
+Lipetsk,Central,496403,2014130
+Kaliningrad,Northwest,490449,2058000
+Astrahan,South,475629,2020600
+Tula,Central,473622,2000174
+Kirov,Volga,468212,2060600
+Sochi,South,466078,2064130
+Kursk,Central,440052,2000150
+Ulan-Ude,Far East,437565,2054555
+Tver,Central,416219,2004600
+Magnitogorsk,Ural,410594,2040510
+Surgut,Ural,396443,2030600
+Bryansk,Central,379152,2000427
+Ivanovo,Central,361644,2010050
+Yakutsk,Far East,355443,2048019
+Vladimir,Central,349951,2060340
+Belgorod,Central,339978,2014370
+Nizhny Tagil,Ural,338966,2030080
+Kaluga,Central,337058,2000351
+Chita,Far East,334427,2050000
+Grozny,North Caucasus,328533,2064180
+Volzhsky,South,321479,2020832
+Smolensk,Central,316570,2000170
+Podolsk,Central,314934,2000065
+Saransk,Volga,314871,2024700
+Vologda,Northwest,313944,2010041
+Kurgan,Ural,310911,2040600
+Cherepovets,Northwest,305185,2010290
+Oryol,Central,303169,2000140
+Arkhangelsk,Northwest,301199,2010400
+Vladikavkaz,North Caucasus,295830,2064070
+Nizhnevartovsk,Ural,283256,2030308
+Yoshkar-Ola,Volga,281248,2060593
+Sterlitamak,Volga,277410,2024780
+Murmansk,Northwest,270384,2004200
+Kostroma,Central,267481,2010090
+Novorossiysk,South,262293,2064110
+Tambov,Central,261803,2014700
+Khimki,Central,257128,2005000
+Mytishchi,Central,255429,2000015
+Nalchik,North Caucasus,247054,2064055
+Taganrog,South,245120,2064287
+Nizhnekamsk,Volga,241479,2024793
+Blagoveshchensk,Far East,241437,2000029
+Komsomolsk-on-Amur,Far East,238505,2034630
+Petrozavodsk,Northwest,234897,2005594
+Korolyov,Central,228095,2002080
+Shakhty,South,226452,2064201
+Veliky Novogrod,Northwest,224286,2005601
+Bratsk,Siberia,224071,2054775
+Stary,Central,221676,2014340
+Angarsk,Siberia,221296,2054260
+Syktyvkar,Northwest,220580,2010280
+Dzerzhinsk,Volga,218630,2060420
+Pskov,Northwest,193082,2004500
+Orsk,Volga,189195,2040480
+Krasnogorsk,Central,187634,2000480
+Armavir,South,187177,2064291
+Abakan,Siberia,184769,2038230
+Balakovo,Volga,184466,2020865
+Biysk,Siberia,183852,2044720
+Odintsovo,Central,180530,2000055
+Ussuriysk,Far East,180393,2034750
+Prokopyevsk,Siberia,177819,2028093
+Volgodonsk,South,168048,2064145
+Syzran,Volga,165725,2024739
+Petropavlovsk-Kamchatsky,Far East,164900,2040500
+Kamensk-Uralsky,Ural,164192,2030240
+Novocherkassk,South,163674,2064230
+Zlatoust,Ural,161774,2040550
+Severodvinsk,Northwest,157213,2010320
+Khasavyurt,North Caucasus,155144,2064165
+Domodedovo,Central,152404,2000145
+Salavat,Volga,148575,2024790
+Miass,Ural,147995,2040530
+Pyatigorsk,North Caucasus,146473,2064060
+Maykop,South,143385,2064015
+Kovrov,Central,132417,2060350
+Kislovodsk,North Caucasus,127521,2064050
+Bataysk,South,126988,2064105
+Rubtsovsk,Siberia,126834,2044810
+Obninsk,Central,125376,2001375
+Nazran,North Caucasus,122350,2064049
+Yessentuki,North Caucasus,119658,2064080
+Nevinnomyssk,North Caucasus,117562,2064220
+Pervouralsk,Ural,114450,2030046
+Reutov,Central,113871,2001036
+Dimitrovgrad,Volga,110968,2024683
+Pushkino,Central,110868,2000035
+Murom,Central,107497,2060370
+Novy Urengoy,Ural,107251,2030319
+Seversk,Siberia,106648,2064186
+Orekhovo-Zuyevo,Central,105745,2000912
+Arzamas,Volga,104908,2060320
+Noginsk,Central,103891,2001415
+Sergiyev,Central,101756,2000753
+Achinsk,Siberia,100621,2038210
+Tobolsk,Ural,100352,2030284
+Noyabrsk,Ural,100188,2030309
