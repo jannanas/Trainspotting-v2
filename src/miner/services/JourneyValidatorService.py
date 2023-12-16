@@ -1,5 +1,7 @@
 from datetime import datetime
 from ..model.Exceptions import *
+import traceback
+import sys
 
 class JourneyValidatorService:
     # Inject services to reuse them on each call
@@ -17,5 +19,6 @@ class JourneyValidatorService:
             return journeys
         except Exception as e:
             print(f'{type(e)} for {fromStationCode} -> {toStationCode} on {self.queryService.params["dt0"]}')
+            # print(print(traceback.format_exc()))
             return []
     

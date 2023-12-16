@@ -13,8 +13,8 @@ def main():
     dataExtractorService = DataExtractorService()
     journeyValidatorService = JourneyValidatorService(queryService, dataExtractorService)
     
-    queryService.params["dt0"] = "asd"
-    journeys = journeyValidatorService.getJourneys(2000000, 2004000)
+    journeyValidatorService.setDate(datetime(2024, 5, 31))
+    journeys = journeyValidatorService.getJourneys(2010000, 2060500)
     pp.pprint(journeys)
 
 if __name__ == "__main__":

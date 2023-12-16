@@ -8,7 +8,8 @@ class Journey:
     journeyId: int
     trainId: str
     trainCarrier: str
-    journeyRoute: str
+    journeyStart: str
+    journeyEnd: str
     journeyDepartureDatetime: datetime
     journeyArrivalDatetime: datetime
     journeySeats: List[JourneySeats]

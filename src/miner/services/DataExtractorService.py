@@ -1,5 +1,4 @@
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
 from ..model.JourneySeats import JourneySeats
 from ..model.Journey import Journey
 from datetime import datetime
@@ -10,56 +9,38 @@ class DataExtractorService:
 
     def extract(self, pageElement):
         journeys = []
-        journeyElements = pageElement.find_elements(By.XPATH, './/div[@class="route-item__purpose__direct"]')
+
+        soup = BeautifulSoup(pageElement, 'lxml')
+
+        journeyElements = soup.find_all("div", class_="route-item__purpose__direct")
 
         for journeyElement in journeyElements:
-            trainId = self.findElementText(journeyElement, './/span[@class="route-trnum"]')
-            trainCarrier = self.findElementText(journeyElement, './/span[@class="route-tr-carrier"]').split()[-1]
-            journeyRoute = self.findElementText(journeyElement, './/span[@class="train-info__route-stations"]').split(" ", 3)[-1]
+            trainId = journeyElement.find("span", class_="route-trnum").text.strip()
+            trainCarrier = journeyElement.find("span", class_="route-tr-carrier").text.strip().split(" ", 1)[-1]
             
-            journeyTimes = journeyElement.find_elements(By.XPATH, './/span[@class="train-info__route_time"]')
-            journeyDepartureTime = journeyTimes[0].text
-            journeyArrivalTime = journeyTimes[2].text
+            journeyRoute = journeyElement.find("span", class_="train-info__route-stations").text.split(" ", 2)[-1].split("\n")[2].split(" — ")
+            journeyStart = journeyRoute[0].strip()
+            journeyEnd = journeyRoute[1].strip()
 
-            journeyDates = journeyElement.find_elements(By.XPATH, './/span[@class="train-info__route_date"]')
-            journeyDepartureDate = journeyDates[0].text
-            journeyArrivalDate = journeyDates[2].text
+            journeyTimes = journeyElement.find_all("span", class_="train-info__route_time")
+            journeyDepartureTime = journeyTimes[0].text.strip()
+            journeyArrivalTime = journeyTimes[2].text.strip()
+
+            journeyDates = journeyElement.find_all("span", class_="train-info__route_date")
+            journeyDepartureDate = journeyDates[0].text.strip()
+            journeyArrivalDate = journeyDates[2].text.strip()
 
             journeyDepartureDatetime = datetime.strptime(journeyDepartureDate + journeyDepartureTime, self.dateFormat)
             journeyArrivalDatetime = datetime.strptime(journeyArrivalDate + journeyArrivalTime, self.dateFormat)
             
             journeySeats = []
-            journeySeatsElements = journeyElement.find_elements(By.XPATH, './/div[@class="route-carType-item"]')
+            journeySeatsElements = journeyElement.find_all("div", class_="route-carType-item")
             for journeySeatsElement in journeySeatsElements:
-                journeySeatsType = self.findElementText(journeySeatsElement, './/span[@class="serv-cat"]')
-                journeySeatsAvailable = int(self.findElementText(journeySeatsElement, './/span[@class="route-cartype-places-left"]').split()[-1])
-                journeySeatsPrice = int(self.findElementText(journeySeatsElement, './/span[@class="route-cartype-price-rub"]').replace(",", ""))
+                journeySeatsType = journeySeatsElement.find("span", "serv-cat").text.strip()
+                journeySeatsAvailable = journeySeatsElement.find("span", "route-cartype-places-left").text.strip().split()[-1]
+                journeySeatsPrice = journeySeatsElement.find("span", "route-cartype-price-rub").text.strip().replace(",", "")  
                 journeySeats.append(JourneySeats(journeySeatsType, journeySeatsAvailable, journeySeatsPrice))
             
-            journeys.append(Journey(None, trainId, trainCarrier, journeyRoute, journeyDepartureDatetime, journeyArrivalDatetime, journeySeats))            
+            journeys.append(Journey(None, trainId, trainCarrier, journeyStart, journeyEnd, journeyDepartureDatetime, journeyArrivalDatetime, journeySeats))            
         
         return journeys
-    
-    def findElementText(self, element, search):
-        return element.find_element(By.XPATH, search).text     
-
-    
-
-
-
-
-# from bs4 import BeautifulSoup
-# from lxml import etree 
-
-# class DataExtractorService:
-#     def __init__(self):
-#         pass
-
-#     def extract(self, pageSource):
-#         soup = BeautifulSoup(pageSource, 'html.parser')
-#         dom = etree.HTML(str(soup))
-        
-#         trainElement = dom.xpath("//div[@class="j-routes route-items-cont"]")
-#         trainElements = trainElement.find_all
-        
-#         return trainElement
