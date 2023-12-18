@@ -1,8 +1,8 @@
 import logging
-from miner.services.QueryService import QueryService
-from miner.services.DataExtractorService import DataExtractorService
-from miner.services.JourneyValidatorService import JourneyValidatorService
+from miner.services.Scraper import Scraper
 from datetime import datetime, date
+import time
+import traceback
 
 def setupLogging():
     logging.getLogger("selenium.webdriver.remote.remote_connection").setLevel(logging.ERROR)
@@ -10,14 +10,21 @@ def setupLogging():
     logging.basicConfig(level=logging.NOTSET, format='%(asctime)s %(levelname)s -- %(message)s', datefmt='%Y-%m-%d %H:%M:%S', filename=fr'D:\Jannes\Documents\Trainspotting v2\output\log\validation_{datetime.now().strftime("%Y-%m-%d--%H-%M-%S")}.log', filemode='w')
     return logging.getLogger("main")
 
+
 def main():
     logger = setupLogging()
-    logger.info("Started execution")
+    startTime = time.perf_counter()
+    logger.info(f"Started execution")
 
-    journeyValidatorService = JourneyValidatorService()
-    journeyValidatorService.validateJourneys(date(2023, 12, 17), date(2023, 12, 18))
+    try:
+        scraper = Scraper()
+        scraper.scrapeJourneysOnDateRange(date(2023, 12, 19), date(2023, 12, 20))
     
-    logger.info("Finished execution")
+    except Exception as e:
+        logger.error(traceback.format_exc())
+
+
+    logger.info(f"Finished execution in {time.perf_counter() - startTime} seconds")
 
 
 if __name__ == "__main__":

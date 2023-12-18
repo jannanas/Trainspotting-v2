@@ -6,6 +6,8 @@ from typing import List
 @dataclass
 class Journey:
     journeyId: int
+    fromStationCode: int
+    toStationCode: int
     trainId: str
     trainCarrier: str
     journeyStart: str

@@ -7,7 +7,7 @@ class DataExtractorService:
     def __init__(self):
         self.dateFormat = '%d.%m.%Y%H:%M'
 
-    def extract(self, pageElement):
+    def extract(self, fromStationCode, toStationCode, pageElement):
         journeys = []
 
         soup = BeautifulSoup(pageElement, 'lxml')
@@ -41,6 +41,6 @@ class DataExtractorService:
                 journeySeatsPrice = journeySeatsElement.find("span", "route-cartype-price-rub").text.strip().replace(",", "")  
                 journeySeats.append(JourneySeats(journeySeatsType, journeySeatsAvailable, journeySeatsPrice))
             
-            journeys.append(Journey(None, trainId, trainCarrier, journeyStart, journeyEnd, journeyDepartureDatetime, journeyArrivalDatetime, journeySeats))            
+            journeys.append(Journey(None, fromStationCode, toStationCode, trainId, trainCarrier, journeyStart, journeyEnd, journeyDepartureDatetime, journeyArrivalDatetime, journeySeats))            
         
         return journeys

@@ -1,6 +1,4 @@
-import requests
 from bs4 import BeautifulSoup
-import cchardet
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,19 +10,7 @@ from selenium.webdriver.remote.remote_connection import LOGGER as seleniumLogger
 
 class QueryService:
 
-    def __init__(self, date=datetime(2024, 1, 31), tfl=3, md=0, checkSeats=0, headless=True):
-        self.session = requests.Session()
-        self.params = {
-            "layer_name": "e3-route",
-            "code0": None,
-            "code1": None,
-            "dt0": date.strftime("%d.%m.%Y"),
-            "tfl": tfl,
-            "md": md,
-            "checkSeats": checkSeats
-        }
-        self.url = "https://pass.rzd.ru/tickets/public/en?"
-
+    def __init__(self, headless=True):
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
         options.add_experimental_option("excludeSwitches", ["enable-logging"])
@@ -32,10 +18,6 @@ class QueryService:
         if headless:
             options.add_argument('--headless')
         self.driver = webdriver.Chrome(r"D:\Jannes\Documents\Trainspotting v2\src\miner\util\chromedriver.exe", options=options)
-
-
-    def setDate(self, date):
-        self.params["dt0"] = date.strftime("%d.%m.%Y")
 
 
     def handleException(self, pageSource):
@@ -56,12 +38,8 @@ class QueryService:
             raise Exception
         
 
-    def get(self, fromStationCode, toStationCode):
-        self.params["code0"] = fromStationCode
-        self.params["code1"] = toStationCode
-
-        constructedUrl = self.url + urllib.parse.urlencode(self.params)
-        self.driver.get(constructedUrl)
+    def get(self, url):
+        self.driver.get(url)
 
         try:
             WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/div[4]/div/div[1]/div/div[2]/div/form/div/div[2]/div/div[1]/div/span[2]'))).click()
