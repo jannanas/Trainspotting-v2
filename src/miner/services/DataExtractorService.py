@@ -4,13 +4,12 @@ from ..model.Journey import Journey
 from datetime import datetime
 
 class DataExtractorService:
-    def __init__(self):
-        self.dateFormat = '%d.%m.%Y%H:%M'
 
-    def extract(self, fromStationCode, toStationCode, pageElement):
+    def extract(fromStationCode, toStationCode, pageSource):
         journeys = []
+        dateFormat = '%d.%m.%Y%H:%M'
 
-        soup = BeautifulSoup(pageElement, 'lxml')
+        soup = BeautifulSoup(pageSource, 'lxml')
 
         journeyElements = soup.find_all("div", class_="route-item__purpose__direct")
 
@@ -30,8 +29,8 @@ class DataExtractorService:
             journeyDepartureDate = journeyDates[0].text.strip()
             journeyArrivalDate = journeyDates[2].text.strip()
 
-            journeyDepartureDatetime = datetime.strptime(journeyDepartureDate + journeyDepartureTime, self.dateFormat)
-            journeyArrivalDatetime = datetime.strptime(journeyArrivalDate + journeyArrivalTime, self.dateFormat)
+            journeyDepartureDatetime = datetime.strptime(journeyDepartureDate + journeyDepartureTime, dateFormat)
+            journeyArrivalDatetime = datetime.strptime(journeyArrivalDate + journeyArrivalTime, dateFormat)
             
             journeySeats = []
             journeySeatsElements = journeyElement.find_all("div", class_="route-carType-item")

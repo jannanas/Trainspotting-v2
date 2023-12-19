@@ -18,7 +18,7 @@ def main():
 
     try:
         scraper = Scraper()
-        scraper.scrapeJourneysOnDateRange(date(2023, 12, 19), date(2023, 12, 20))
+        scraper.scrapeJourneysOnDateRange(date(2023, 12, 20), date(2023, 12, 20))
     
     except Exception as e:
         logger.error(traceback.format_exc())

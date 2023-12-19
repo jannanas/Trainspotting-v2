@@ -3,10 +3,11 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-import urllib.parse
 from ..model.Exceptions import *
-from datetime import datetime
-from selenium.webdriver.remote.remote_connection import LOGGER as seleniumLogger, logging as seleniumLogging
+import logging
+from .DataExtractorService import DataExtractorService 
+
+logger = logging.getLogger("QueryService")
 
 class QueryService:
 
@@ -36,7 +37,7 @@ class QueryService:
             raise DateException
         else:
             raise Exception
-        
+
 
     def get(self, url):
         self.driver.get(url)
@@ -47,3 +48,17 @@ class QueryService:
             self.handleException(self.driver.page_source)
 
         return self.driver.page_source
+        
+
+    def getQuery(self, fromStationCode, toStationCode, url):
+        try:
+            pageSource = self.get(url)
+            journeys = DataExtractorService.extract(fromStationCode, toStationCode, pageSource)
+            
+            #Change what is sent back and stored
+            return [fromStationCode, toStationCode, len(journeys), None]
+        
+        except Exception as e:
+            logger.warning(f'{type(e).__name__}')
+            return [fromStationCode, toStationCode, 0, type(e).__name__]
+        
