@@ -11,11 +11,10 @@ from concurrent.futures import ThreadPoolExecutor
 import threading
 import numpy as np
 
-logger = logging.getLogger("Scraper")
-
 class Scraper:
     # Inject services to reuse them on each call
     def __init__(self):
+        self.logger = logging.getLogger("Scraper")
         self.params = {
             "layer_name": "e3-route",
             "code0": None,
@@ -27,9 +26,9 @@ class Scraper:
         }
         self.url = "https://pass.rzd.ru/tickets/public/en?"
 
-        logger.debug(f"Loading station codes")
+        self.logger.debug(f"Loading station codes")
         self.codes = self.getCodes()
-        logger.debug(f"Station codes loaded")
+        self.logger.debug(f"Station codes loaded")
 
 
     def buildUrl(self, journeyDate, fromStationCode, toStationCode):
@@ -40,29 +39,6 @@ class Scraper:
         return self.url + urllib.parse.urlencode(self.params)
 
 
-    # def buildQueriesOnDateRange(self, fromDate, toDate):
-    #     queryListByDate = []
-
-    #     for journeyDate in self.daterange(fromDate, toDate):
-    #         queryList = []
-
-    #         for indexFrom in range(1, 4): # fix upper bound
-    #             fromStationCode = self.codes[indexFrom][3]
-
-    #             for indexTo in range(indexFrom+1, 4): # fix upper bound
-    #                 toStationCode = self.codes[indexTo][3]
-
-    #                 queryList.append((
-    #                     journeyDate,
-    #                     fromStationCode,
-    #                     toStationCode,
-    #                     self.buildUrl(journeyDate, fromStationCode, toStationCode)
-    #                 ))
-
-    #         queryListByDate.append((journeyDate, queryList))
-
-    #     return queryListByDate
-
     def buildQueriesOnDateRange(self, fromDate, toDate):
         queryListByDate = []
 
@@ -72,7 +48,7 @@ class Scraper:
             for indexFrom in range(1, 2): # fix upper bound
                 fromStationCode = self.codes[indexFrom][3]
 
-                for indexTo in range(indexFrom+1, 13): # fix upper bound
+                for indexTo in range(indexFrom+1, 4): # fix upper bound
                     toStationCode = self.codes[indexTo][3]
 
                     queryInfoList.append((
@@ -97,9 +73,15 @@ class Scraper:
 
 
     def scrapeJourneysOnDate(self, queryList):
-        journeyList = []
-        queryService = QueryService()
+        threadId = threading.current_thread().getName().split('-')[-1]
+        threadLogger = logging.getLogger(f"Scraper {threadId}")
 
+        threadLogger.debug(f"Initiated thread to scrape {len(queryList)} connections")
+
+        journeyList = []
+        queryService = QueryService(headless=True)
+
+        # Consider implementing tab switching
         for query in queryList:
             journeyDate = query[0]
             fromStationCode = query[1]
@@ -109,8 +91,11 @@ class Scraper:
             url = self.buildUrl(journeyDate, fromStationCode, toStationCode)
             journeyList.append(queryService.getQuery(fromStationCode, toStationCode, url))
 
-            logger.debug(f"Scraped {fromStationCode} -> {toStationCode} on {journeyDate} in {time.perf_counter() - startTime} seconds")
+            threadLogger.debug(f"Scraped {fromStationCode} -> {toStationCode} on {journeyDate} in {time.perf_counter() - startTime} seconds")
         
+        #Close session
+        queryService.driver.quit()
+
         # with ThreadPoolExecutor() as executor:
         #     results = executor.map(self.getQuery, queryList)
         #     for result in results:
@@ -120,31 +105,33 @@ class Scraper:
         journeysDF = pd.DataFrame(journeyList, columns=columns)
 
         # Make filepath dynamic
-        fileName = f"journeys_stats_{journeyDate.strftime('%d_%m_%Y')}_{threading.current_thread().getName().split('-')[-1]}.parquet"
+        fileName = f"journeys_stats_{journeyDate.strftime('%d_%m_%Y')}_{threadId}.parquet"
         filePath = fr"D:\Jannes\Documents\Trainspotting v2\output\{fileName}"
 
-        logger.info(f"Writing to {fileName}")
+        threadLogger.info(f"Writing to {fileName}")
+        startTime = time.perf_counter()
+        # journeysDF.to_csv(filePath, mode='a', index=False)
         journeysDF.to_parquet(filePath, index=False)
+        threadLogger.info(f"Finished writing to {fileName} in {time.perf_counter() - startTime}")
 
 
-    def scrapeJourneysOnDateRange(self, fromDate, toDate):
-        logger.info(f"Scraping journeys on range: {fromDate} - {toDate}")
+    def scrapeJourneysOnDateRange(self, fromDate, toDate, maxThreadCount=1):
+        self.logger.info(f"Scraping journeys on range: {fromDate} - {toDate}")
         
-        logger.debug(f"Building query combos")
+        self.logger.debug(f"Building query combos")
         queryListByDate = self.buildQueriesOnDateRange(fromDate, toDate)
 
         for journeyDate, queryList in queryListByDate:
             startTime = time.perf_counter()
-            logger.debug(f"Scraping journeys on {journeyDate}")
+            self.logger.debug(f"Scraping journeys on {journeyDate}")
 
             #Decide max workers well
-            max_workers = 3
-            splitQueryList = np.array_split(queryList, max_workers)
-            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            splitQueryList = np.array_split(queryList, maxThreadCount)
+            with ThreadPoolExecutor(max_workers=maxThreadCount) as executor:
                 executor.map(self.scrapeJourneysOnDate, splitQueryList)
 
-            logger.debug(f"Completed scraping journeys on {journeyDate} in {time.perf_counter() - startTime}")
+            self.logger.debug(f"Completed scraping journeys on {journeyDate} in {time.perf_counter() - startTime}")
         
-        logger.info(f"Finished scraping!")
+        self.logger.info(f"Finished scraping!")
 
 

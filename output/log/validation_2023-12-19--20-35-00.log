@@ -1,0 +1,102 @@
+2023-12-19 20:35:00 INFO main -- Started execution
+2023-12-19 20:35:00 DEBUG Scraper -- Loading station codes
+2023-12-19 20:35:00 DEBUG Scraper -- Station codes loaded
+2023-12-19 20:35:00 INFO Scraper -- Scraping journeys on range: 2023-12-20 - 2023-12-20
+2023-12-19 20:35:00 DEBUG Scraper -- Building query combos
+2023-12-19 20:35:00 DEBUG Scraper -- Scraping journeys on 2023-12-20
+2023-12-19 20:35:00 DEBUG Scraper 0_0 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_1 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_2 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_3 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_4 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_5 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_6 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_7 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_8 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:00 DEBUG Scraper 0_9 -- Initiated thread to scrape 5 connections
+2023-12-19 20:35:12 DEBUG Scraper 0_1 -- Scraped 2000000 -> 2040000 on 2023-12-20 in 6.0499089999993885 seconds
+2023-12-19 20:35:12 DEBUG Scraper 0_2 -- Scraped 2000000 -> 2044700 on 2023-12-20 in 6.53539869999986 seconds
+2023-12-19 20:35:12 DEBUG Scraper 0_3 -- Scraped 2000000 -> 2020000 on 2023-12-20 in 6.427177199999278 seconds
+2023-12-19 20:35:12 DEBUG Scraper 0_5 -- Scraped 2000000 -> 2010000 on 2023-12-20 in 6.5613837000000785 seconds
+2023-12-19 20:35:12 DEBUG Scraper 0_7 -- Scraped 2000000 -> 2024120 on 2023-12-20 in 6.322841300001528 seconds
+2023-12-19 20:35:14 DEBUG Scraper 0_8 -- Scraped 2000000 -> 2000174 on 2023-12-20 in 7.834792600000583 seconds
+2023-12-19 20:35:14 DEBUG Scraper 0_4 -- Scraped 2000000 -> 2064900 on 2023-12-20 in 7.811748500000249 seconds
+2023-12-19 20:35:15 DEBUG Scraper 0_1 -- Scraped 2000000 -> 2038000 on 2023-12-20 in 2.437650500000018 seconds
+2023-12-19 20:35:15 DEBUG Scraper 0_9 -- Scraped 2000000 -> 2004600 on 2023-12-20 in 8.483474299999216 seconds
+2023-12-19 20:35:15 DEBUG Scraper 0_0 -- Scraped 2000000 -> 2004000 on 2023-12-20 in 9.246185800000603 seconds
+2023-12-19 20:35:15 DEBUG Scraper 0_7 -- Scraped 2000000 -> 2060620 on 2023-12-20 in 2.7856637999993836 seconds
+2023-12-19 20:35:15 DEBUG Scraper 0_2 -- Scraped 2000000 -> 2064788 on 2023-12-20 in 3.160202899998694 seconds
+2023-12-19 20:35:16 DEBUG Scraper 0_3 -- Scraped 2000000 -> 2030100 on 2023-12-20 in 3.675285999999687 seconds
+2023-12-19 20:35:22 WARNING QueryService 0_6 -- NoJourneysOnDateException for 2000000 -> 2064700
+2023-12-19 20:35:22 DEBUG Scraper 0_6 -- Scraped 2000000 -> 2064700 on 2023-12-20 in 15.515774800000145 seconds
+2023-12-19 20:35:24 WARNING QueryService 0_5 -- NoJourneysOnDateException for 2000000 -> 2028000
+2023-12-19 20:35:24 DEBUG Scraper 0_5 -- Scraped 2000000 -> 2028000 on 2023-12-20 in 11.618221299999277 seconds
+2023-12-19 20:35:25 WARNING QueryService 0_4 -- InternalSystemException for 2000000 -> 2034000
+2023-12-19 20:35:25 DEBUG Scraper 0_4 -- Scraped 2000000 -> 2034000 on 2023-12-20 in 11.08818760000031 seconds
+2023-12-19 20:35:26 WARNING QueryService 0_1 -- InternalSystemException for 2000000 -> 2024000
+2023-12-19 20:35:26 DEBUG Scraper 0_1 -- Scraped 2000000 -> 2024000 on 2023-12-20 in 11.547296200000346 seconds
+2023-12-19 20:35:27 WARNING QueryService 0_3 -- BlankPageException for 2000000 -> 2024810
+2023-12-19 20:35:27 DEBUG Scraper 0_3 -- Scraped 2000000 -> 2024810 on 2023-12-20 in 10.719365900000412 seconds
+2023-12-19 20:35:27 WARNING QueryService 0_9 -- InternalSystemException for 2000000 -> 2040510
+2023-12-19 20:35:27 DEBUG Scraper 0_9 -- Scraped 2000000 -> 2040510 on 2023-12-20 in 11.938186699999278 seconds
+2023-12-19 20:35:27 WARNING QueryService 0_7 -- InternalSystemException for 2000000 -> 2014130
+2023-12-19 20:35:27 DEBUG Scraper 0_7 -- Scraped 2000000 -> 2014130 on 2023-12-20 in 11.558956599999874 seconds
+2023-12-19 20:35:27 WARNING QueryService 0_8 -- InternalSystemException for 2000000 -> 2060600
+2023-12-19 20:35:27 DEBUG Scraper 0_8 -- Scraped 2000000 -> 2060600 on 2023-12-20 in 12.703933299999335 seconds
+2023-12-19 20:35:27 WARNING QueryService 0_2 -- InternalSystemException for 2000000 -> 2014000
+2023-12-19 20:35:27 DEBUG Scraper 0_2 -- Scraped 2000000 -> 2014000 on 2023-12-20 in 11.507665799999813 seconds
+2023-12-19 20:35:27 WARNING QueryService 0_0 -- InternalSystemException for 2000000 -> 2044000
+2023-12-19 20:35:27 DEBUG Scraper 0_0 -- Scraped 2000000 -> 2044000 on 2023-12-20 in 11.717248599999948 seconds
+2023-12-19 20:35:32 WARNING QueryService 0_6 -- BlankPageException for 2000000 -> 2040210
+2023-12-19 20:35:32 DEBUG Scraper 0_6 -- Scraped 2000000 -> 2040210 on 2023-12-20 in 10.281910300000163 seconds
+2023-12-19 20:36:30 DEBUG Scraper 0_7 -- Scraped 2000000 -> 2058000 on 2023-12-20 in 63.79321020000134 seconds
+2023-12-19 20:36:31 DEBUG Scraper 0_2 -- Scraped 2000000 -> 2030120 on 2023-12-20 in 64.04976410000017 seconds
+2023-12-19 20:36:32 DEBUG Scraper 0_0 -- Scraped 2000000 -> 2030000 on 2023-12-20 in 64.75361879999946 seconds
+2023-12-19 20:36:33 DEBUG Scraper 0_7 -- Scraped 2000000 -> 2020600 on 2023-12-20 in 2.328437900001518 seconds
+2023-12-19 20:36:33 DEBUG Scraper 0_2 -- Scraped 2000000 -> 2020500 on 2023-12-20 in 2.4958614999995916 seconds
+2023-12-19 20:36:35 DEBUG Scraper 0_0 -- Scraped 2000000 -> 2060615 on 2023-12-20 in 3.6412966000007145 seconds
+2023-12-19 20:36:38 DEBUG Scraper 0_0 -- Scraped 2000000 -> 2060000 on 2023-12-20 in 2.4327017000014166 seconds
+2023-12-19 20:36:48 DEBUG Scraper 0_4 -- Scraped 2000000 -> 2024900 on 2023-12-20 in 82.71638500000154 seconds
+2023-12-19 20:36:49 DEBUG Scraper 0_1 -- Scraped 2000000 -> 2024600 on 2023-12-20 in 82.99731930000053 seconds
+2023-12-19 20:36:50 DEBUG Scraper 0_4 -- Scraped 2000000 -> 2054000 on 2023-12-20 in 2.185722199999873 seconds
+2023-12-19 20:36:52 DEBUG Scraper 0_1 -- Scraped 2000000 -> 2064000 on 2023-12-20 in 2.5275551000013365 seconds
+2023-12-19 20:36:53 DEBUG Scraper 0_4 -- Scraped 2000000 -> 2034130 on 2023-12-20 in 2.592831500000102 seconds
+2023-12-19 20:36:56 INFO Scraper 0_7 -- Writing to journeys_stats_20_12_2023_0_7.parquet
+2023-12-19 20:36:56 INFO Scraper 0_7 -- Finished writing to journeys_stats_20_12_2023_0_7.parquet in 0.028291900000112946
+2023-12-19 20:36:56 INFO Scraper 0_2 -- Writing to journeys_stats_20_12_2023_0_2.parquet
+2023-12-19 20:36:56 INFO Scraper 0_2 -- Finished writing to journeys_stats_20_12_2023_0_2.parquet in 0.004000700000688084
+2023-12-19 20:37:01 INFO Scraper 0_0 -- Writing to journeys_stats_20_12_2023_0_0.parquet
+2023-12-19 20:37:01 INFO Scraper 0_0 -- Finished writing to journeys_stats_20_12_2023_0_0.parquet in 0.0032243000005109934
+2023-12-19 20:37:15 INFO Scraper 0_1 -- Writing to journeys_stats_20_12_2023_0_1.parquet
+2023-12-19 20:37:15 INFO Scraper 0_1 -- Finished writing to journeys_stats_20_12_2023_0_1.parquet in 0.0034261000000697095
+2023-12-19 20:37:16 INFO Scraper 0_4 -- Writing to journeys_stats_20_12_2023_0_4.parquet
+2023-12-19 20:37:16 INFO Scraper 0_4 -- Finished writing to journeys_stats_20_12_2023_0_4.parquet in 0.0039001000004645903
+2023-12-19 20:37:20 DEBUG Scraper 0_5 -- Scraped 2000000 -> 2028156 on 2023-12-20 in 115.83977579999919 seconds
+2023-12-19 20:37:20 DEBUG Scraper 0_3 -- Scraped 2000000 -> 2044800 on 2023-12-20 in 113.44638710000072 seconds
+2023-12-19 20:37:22 DEBUG Scraper 0_5 -- Scraped 2000000 -> 2024525 on 2023-12-20 in 2.112734800000908 seconds
+2023-12-19 20:37:22 DEBUG Scraper 0_3 -- Scraped 2000000 -> 2060150 on 2023-12-20 in 2.1532592000003206 seconds
+2023-12-19 20:37:28 WARNING QueryService 0_6 -- NoJourneysOnDateException for 2000000 -> 2028160
+2023-12-19 20:37:28 DEBUG Scraper 0_6 -- Scraped 2000000 -> 2028160 on 2023-12-20 in 115.77549379999982 seconds
+2023-12-19 20:37:33 WARNING QueryService 0_5 -- NoJourneysOnDateException for 2000000 -> 2064700
+2023-12-19 20:37:33 DEBUG Scraper 0_5 -- Scraped 2000000 -> 2064700 on 2023-12-20 in 11.021251800000755 seconds
+2023-12-19 20:37:33 DEBUG Scraper 0_6 -- Scraped 2000000 -> 2000125 on 2023-12-20 in 5.194039099998918 seconds
+2023-12-19 20:37:34 DEBUG Scraper 0_8 -- Scraped 2000000 -> 2064130 on 2023-12-20 in 127.05956849999893 seconds
+2023-12-19 20:37:34 DEBUG Scraper 0_9 -- Scraped 2000000 -> 2030600 on 2023-12-20 in 127.30521090000002 seconds
+2023-12-19 20:37:35 DEBUG Scraper 0_6 -- Scraped 2000000 -> 2001940 on 2023-12-20 in 1.918434499999421 seconds
+2023-12-19 20:37:36 DEBUG Scraper 0_8 -- Scraped 2000000 -> 2000150 on 2023-12-20 in 2.580698799998572 seconds
+2023-12-19 20:37:37 DEBUG Scraper 0_9 -- Scraped 2000000 -> 2000427 on 2023-12-20 in 2.951497300000483 seconds
+2023-12-19 20:37:38 DEBUG Scraper 0_8 -- Scraped 2000000 -> 2054555 on 2023-12-20 in 2.043208200000663 seconds
+2023-12-19 20:37:40 DEBUG Scraper 0_9 -- Scraped 2000000 -> 2010050 on 2023-12-20 in 2.639097799999945 seconds
+2023-12-19 20:37:45 INFO Scraper 0_3 -- Writing to journeys_stats_20_12_2023_0_3.parquet
+2023-12-19 20:37:45 INFO Scraper 0_3 -- Finished writing to journeys_stats_20_12_2023_0_3.parquet in 0.0037522000002354616
+2023-12-19 20:37:56 INFO Scraper 0_5 -- Writing to journeys_stats_20_12_2023_0_5.parquet
+2023-12-19 20:37:56 INFO Scraper 0_5 -- Finished writing to journeys_stats_20_12_2023_0_5.parquet in 0.0035492999995767605
+2023-12-19 20:37:58 INFO Scraper 0_6 -- Writing to journeys_stats_20_12_2023_0_6.parquet
+2023-12-19 20:37:58 INFO Scraper 0_6 -- Finished writing to journeys_stats_20_12_2023_0_6.parquet in 0.0038557999996555736
+2023-12-19 20:38:01 INFO Scraper 0_8 -- Writing to journeys_stats_20_12_2023_0_8.parquet
+2023-12-19 20:38:01 INFO Scraper 0_8 -- Finished writing to journeys_stats_20_12_2023_0_8.parquet in 0.0037878999992244644
+2023-12-19 20:38:03 INFO Scraper 0_9 -- Writing to journeys_stats_20_12_2023_0_9.parquet
+2023-12-19 20:38:03 INFO Scraper 0_9 -- Finished writing to journeys_stats_20_12_2023_0_9.parquet in 0.003548900000168942
+2023-12-19 20:38:03 DEBUG Scraper -- Completed scraping journeys on 2023-12-20 in 182.3203881999998
+2023-12-19 20:38:03 INFO Scraper -- Finished scraping!
+2023-12-19 20:38:03 INFO main -- Finished execution in 182.3215553000009 seconds

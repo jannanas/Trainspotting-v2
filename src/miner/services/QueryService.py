@@ -6,12 +6,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from ..model.Exceptions import *
 import logging
 from .DataExtractorService import DataExtractorService 
-
-logger = logging.getLogger("QueryService")
+import threading
 
 class QueryService:
 
     def __init__(self, headless=True):
+        threadId = threading.current_thread().getName().split('-')[-1]
+        self.logger = logging.getLogger(f"QueryService {threadId}")
+
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
         options.add_experimental_option("excludeSwitches", ["enable-logging"])
@@ -59,6 +61,6 @@ class QueryService:
             return [fromStationCode, toStationCode, len(journeys), None]
         
         except Exception as e:
-            logger.warning(f'{type(e).__name__}')
+            self.logger.warning(f'{type(e).__name__} for {fromStationCode} -> {toStationCode}')
             return [fromStationCode, toStationCode, 0, type(e).__name__]
         

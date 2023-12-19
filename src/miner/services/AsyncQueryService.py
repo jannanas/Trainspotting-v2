@@ -6,6 +6,8 @@ import time
 from datetime import datetime
 import nest_asyncio
 nest_asyncio.apply()
+from pyppeteer.errors import PageError
+from requests_html import MaxRetries
 
 class AsyncQueryService:
 
@@ -52,33 +54,37 @@ class AsyncQueryService:
         
 
     async def get(self, asession, url):
-        time.sleep(1)
-        response = await asession.get(url)
-        await response.html.arender(sleep=3, timeout=10)
-        return response.status_code
+        try:
+            time.sleep(1)
+            response = await asession.get(url)
+            await response.html.arender(sleep=2.5, timeout=7)
+            return response.html.html
+        except ConnectionError as e:
+            return "ConnectionError - wait a few minutes before reconnecting"
+        except PageError as e:
+            return "PageError"
+        except MaxRetries as e:
+            return "MaxRetries"
+        except Exception as e:
+            return type(e).__name__
 
 
     async def main(self, urls):
-        s = AsyncHTMLSession()
+        s = AsyncHTMLSession(workers=2)
         tasks = (self.get(s, url) for url in urls)
+        # try:
         return await asyncio.gather(*tasks)
+        # except:
+        #     return tasks
         # await s.close()
         
 
 test = AsyncQueryService()
-urls = [
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=19.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=20.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=21.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=22.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=23.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=19.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=20.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=21.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=22.12.2023&tfl=3&md=0&checkSeats=0",
-    "https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=23.12.2023&tfl=3&md=0&checkSeats=0"
-]
+urls = []
+for i in range(10):
+    urls.append("https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=20.12.2023&tfl=3&md=0&checkSeats=0")
 
 start = time.perf_counter()
-print(asyncio.run(test.main(urls)))
+responses = asyncio.run(test.main(urls))
 print(f"{time.perf_counter() - start} second total. {(time.perf_counter() - start) / len(urls)} seconds per url")
+print()
