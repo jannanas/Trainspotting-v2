@@ -48,7 +48,7 @@ class Scraper:
             for indexFrom in range(1, 2): # fix upper bound
                 fromStationCode = self.codes[indexFrom][3]
 
-                for indexTo in range(indexFrom+1, 4): # fix upper bound
+                for indexTo in range(indexFrom+1, 102): # fix upper bound
                     toStationCode = self.codes[indexTo][3]
 
                     queryInfoList.append((
@@ -120,6 +120,7 @@ class Scraper:
         
         self.logger.debug(f"Building query combos")
         queryListByDate = self.buildQueriesOnDateRange(fromDate, toDate)
+        self.logger.info(f"{len(queryListByDate)} total connections")
 
         for journeyDate, queryList in queryListByDate:
             startTime = time.perf_counter()

@@ -54,19 +54,19 @@ class AsyncQueryService:
         
 
     async def get(self, asession, url):
-        try:
-            time.sleep(1)
+        # try:
+            time.sleep(2)
             response = await asession.get(url)
             await response.html.arender(sleep=2.5, timeout=7)
             return response.html.html
-        except ConnectionError as e:
-            return "ConnectionError - wait a few minutes before reconnecting"
-        except PageError as e:
-            return "PageError"
-        except MaxRetries as e:
-            return "MaxRetries"
-        except Exception as e:
-            return type(e).__name__
+        # except ConnectionError as e:
+        #     return "ConnectionError - wait a few minutes before reconnecting"
+        # except PageError as e:
+        #     return "PageError"
+        # except MaxRetries as e:
+        #     return "MaxRetries"
+        # except Exception as e:
+        #     return type(e).__name__
 
 
     async def main(self, urls):
@@ -81,7 +81,7 @@ class AsyncQueryService:
 
 test = AsyncQueryService()
 urls = []
-for i in range(10):
+for i in range(8):
     urls.append("https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=20.12.2023&tfl=3&md=0&checkSeats=0")
 
 start = time.perf_counter()

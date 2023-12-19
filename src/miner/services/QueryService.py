@@ -7,6 +7,7 @@ from ..model.Exceptions import *
 import logging
 from .DataExtractorService import DataExtractorService 
 import threading
+import traceback
 
 class QueryService:
 
@@ -62,5 +63,10 @@ class QueryService:
         
         except Exception as e:
             self.logger.warning(f'{type(e).__name__} for {fromStationCode} -> {toStationCode}')
+
+            normalExceptions = [BlankPageException, InternalSystemException, NoDirectJourneysException, NoJourneysOnDateException, DateException]
+            if type(e) not in normalExceptions:
+                self.logger.error(traceback.format_exc())
+
             return [fromStationCode, toStationCode, 0, type(e).__name__]
         
