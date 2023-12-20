@@ -23,7 +23,7 @@ class QueryService:
         if headless:
             options.add_argument('--headless')
         self.driver = webdriver.Chrome(r"D:\Jannes\Documents\Trainspotting v2\src\miner\util\chromedriver.exe", options=options)
-        self.driver.set_page_load_timeout(12)
+        # self.driver.set_page_load_timeout(12)
 
 
     def handleException(self, pageSource):
@@ -51,7 +51,7 @@ class QueryService:
         self.driver.get(url)
 
         try:
-            WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/div[4]/div/div[1]/div/div[2]/div/form/div/div[2]/div/div[1]/div/span[2]'))).click()
+            WebDriverWait(self.driver, 10).until(EC.or() EC.element_to_be_clickable((By.XPATH, '//div[@class="route-item__train-info row"]')))  #//div[@class="alert alert-err alert-border-ext alert-square alert-err-back"], 
         except TimeoutException:
             self.handleException(None)
         except:

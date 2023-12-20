@@ -3,7 +3,7 @@ from miner.services.Scraper import Scraper
 from miner.services.QueryService import QueryService
 from datetime import datetime, date
 import time
-import random
+import traceback
 
 def setupLogging():
     logging.getLogger("selenium.webdriver.remote.remote_connection").setLevel(logging.ERROR)
@@ -13,43 +13,43 @@ def setupLogging():
 
 
 def main():
-    queryService = QueryService()
+    # queryService = QueryService()
 
-    urls = []
-    for i in range(100):
-        urls.append("https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&st0=Sankt-Peterburg&code0=2004000&st1=Moscow&code1=2000000&dt0=13.03.2024&tfl=3&md=0&checkSeats=0")
+    # urls = []
+    # for i in range(100):
+    #     urls.append("https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&st0=Sankt-Peterburg&code0=2004000&st1=Moscow&code1=2000000&dt0=13.03.2024&tfl=3&md=0&checkSeats=0")
 
-    startExecTime = time.perf_counter()
-    for url in urls:
-
-
-        minQueryTime = 0
-        startQueryTime = time.perf_counter()
-        queryService.getQuery(2004000, 2000000, url)
-
-        totalQueryTime = time.perf_counter() - startQueryTime
-        if totalQueryTime < minQueryTime:
-            time.sleep(minQueryTime - totalQueryTime)
-            print(f"Sleeping to execute in {minQueryTime} seconds")
-        else:
-            print(f"Executed in {totalQueryTime} seconds")
-
-    totalExecTime = time.perf_counter() - startExecTime
-    print(f"Finished in {totalExecTime} seconds. {totalExecTime / len(urls)} secs per url.")
+    # startExecTime = time.perf_counter()
+    # for url in urls:
 
 
-    # logger = setupLogging()
-    # startTime = time.perf_counter()
-    # logger.info(f"Started execution")
+    #     minQueryTime = 0
+    #     startQueryTime = time.perf_counter()
+    #     queryService.getQuery(2004000, 2000000, url)
 
-    # try:
-    #     scraper = Scraper()
-    #     scraper.scrapeJourneysOnDateRange(date(2023, 12, 20), date(2023, 12, 20), maxThreadCount=5)
+    #     totalQueryTime = time.perf_counter() - startQueryTime
+    #     if totalQueryTime < minQueryTime:
+    #         time.sleep(minQueryTime - totalQueryTime)
+    #         print(f"Sleeping to execute in {minQueryTime} seconds")
+    #     else:
+    #         print(f"Executed in {totalQueryTime} seconds")
+
+    # totalExecTime = time.perf_counter() - startExecTime
+    # print(f"Finished in {totalExecTime} seconds. {totalExecTime / len(urls)} secs per url.")
+
+
+    logger = setupLogging()
+    startTime = time.perf_counter()
+    logger.info(f"Started execution")
+
+    try:
+        scraper = Scraper()
+        scraper.scrapeJourneysOnDateRange(date(2023, 12, 20), date(2023, 12, 20), maxThreadCount=5)
     
-    # except Exception as e:
-    #     logger.error(traceback.format_exc())
+    except Exception as e:
+        logger.error(traceback.format_exc())
 
-    # logger.info(f"Finished execution in {time.perf_counter() - startTime} seconds")
+    logger.info(f"Finished execution in {time.perf_counter() - startTime} seconds")
 
 
 if __name__ == "__main__":

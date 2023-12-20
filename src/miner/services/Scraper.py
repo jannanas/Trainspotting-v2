@@ -26,6 +26,8 @@ class Scraper:
         }
         self.url = "https://pass.rzd.ru/tickets/public/en?"
 
+        self.queryService = QueryService(headless=True)
+
         self.logger.debug(f"Loading station codes")
         self.codes = self.getCodes()
         self.logger.debug(f"Station codes loaded")
@@ -73,28 +75,21 @@ class Scraper:
 
 
     def scrapeJourneysOnDate(self, queryList):
-        threadId = threading.current_thread().getName().split('-')[-1]
-        threadLogger = logging.getLogger(f"Scraper {threadId}")
-
-        threadLogger.debug(f"Initiated thread to scrape {len(queryList)} connections")
 
         journeyList = []
-        queryService = QueryService(headless=True)
 
         # Consider implementing tab switching
         for query in queryList:
+            startTime = time.perf_counter()
+
             journeyDate = query[0]
             fromStationCode = query[1]
             toStationCode = query[2]
-            startTime = time.perf_counter()
 
             url = self.buildUrl(journeyDate, fromStationCode, toStationCode)
-            journeyList.append(queryService.getQuery(fromStationCode, toStationCode, url))
+            journeyList.append(self.queryService.getQuery(fromStationCode, toStationCode, url))
 
-            threadLogger.debug(f"Scraped {fromStationCode} -> {toStationCode} on {journeyDate} in {time.perf_counter() - startTime} seconds")
-        
-        #Close session
-        queryService.driver.quit()
+            self.logger.debug(f"Scraped {fromStationCode} -> {toStationCode} on {journeyDate} in {time.perf_counter() - startTime} seconds")
 
         # with ThreadPoolExecutor() as executor:
         #     results = executor.map(self.getQuery, queryList)
@@ -105,14 +100,14 @@ class Scraper:
         journeysDF = pd.DataFrame(journeyList, columns=columns)
 
         # Make filepath dynamic
-        fileName = f"journeys_stats_{journeyDate.strftime('%d_%m_%Y')}_{threadId}.parquet"
+        fileName = f"journeys_stats_{journeyDate.strftime('%d_%m_%Y')}.parquet"
         filePath = fr"D:\Jannes\Documents\Trainspotting v2\output\{fileName}"
 
-        threadLogger.info(f"Writing to {fileName}")
+        self.logger.info(f"Writing to {fileName}")
         startTime = time.perf_counter()
         # journeysDF.to_csv(filePath, mode='a', index=False)
         journeysDF.to_parquet(filePath, index=False)
-        threadLogger.info(f"Finished writing to {fileName} in {time.perf_counter() - startTime}")
+        self.logger.info(f"Finished writing to {fileName} in {time.perf_counter() - startTime}")
 
 
     def scrapeJourneysOnDateRange(self, fromDate, toDate, maxThreadCount=1):
@@ -124,15 +119,16 @@ class Scraper:
 
         for journeyDate, queryList in queryListByDate:
             startTime = time.perf_counter()
-            self.logger.debug(f"Scraping journeys on {journeyDate}")
+            self.logger.debug(f"Scraping {len(queryList)} journeys on {journeyDate}")
 
-            #Decide max workers well
-            splitQueryList = np.array_split(queryList, maxThreadCount)
-            with ThreadPoolExecutor(max_workers=maxThreadCount) as executor:
-                executor.map(self.scrapeJourneysOnDate, splitQueryList)
+            self.scrapeJourneysOnDate(queryList)
 
-            self.logger.debug(f"Completed scraping journeys on {journeyDate} in {time.perf_counter() - startTime}")
+            executionTime = time.perf_counter() - startTime
+            self.logger.debug(f"Completed scraping journeys on {journeyDate} in {executionTime} - {executionTime / len(queryList)} seconds per query")
         
+        #Close session
+        self.queryService.driver.quit()
+
         self.logger.info(f"Finished scraping!")
 
 
