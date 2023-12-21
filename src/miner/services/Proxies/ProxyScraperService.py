@@ -1,6 +1,7 @@
 import time
 from bs4 import BeautifulSoup
 import requests
+from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
@@ -9,19 +10,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 import pandas as pd
 import datetime
+import os
 
-class ProxyMinerService:
+class ProxyScraperService:
     def __init__(self):
-        # options = webdriver.ChromeOptions()
-        # options.add_argument('--ignore-certificate-errors')
-        # # options.add_experimental_option("excludeSwitches", ["enable-logging"])
-        # options.add_argument('--incognito')
-        # options.add_argument('--headless')
-        options = Options()
-        # options.headless = False
-        options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
-        self.driver = webdriver.Firefox(executable_path=r"C:\Users\janne\Documents\Trainspotting-v2\util\geckodriver.exe", options=options)
-
+        driverPath = fr"{os.getcwd()}\util\geckodriver.exe"
+        service = Service(executable_path=driverPath)
+        options = webdriver.FirefoxOptions()
+        options.headless = False
+        options.add_argument('--ignore-certificate-errors')
+        # options.add_experimental_option("excludeSwitches", ["enable-logging"])
+        options.add_argument('--incognito')
+        self.driver = webdriver.Firefox(service=service, options=options)
 
 
     def getHtml(self, url):
@@ -50,16 +50,15 @@ class ProxyMinerService:
 
         return proxies
 
-miner = ProxyMinerService()
-proxyMiner = ProxyMinerService()
-html = proxyMiner.getHtml("https://spys.one/free-proxy-list/RU/")
-proxies = miner.extractProxies(html)
+proxyScraper = ProxyScraperService()
+html = proxyScraper.getHtml("https://spys.one/free-proxy-list/KZ/")
+proxies = proxyScraper.extractProxies(html)
 
 columns = ["proxy"]
 proxiesDF = pd.DataFrame(proxies, columns=columns)
 
 # Make filepath dynamic
-fileName = f"proxies_{datetime.date}.csv"
+fileName = f"proxies_KZ_{datetime.date.today().strftime('%d_%m_%Y')}.csv"
 filePath = fr"C:\Users\janne\Documents\Trainspotting-v2\output\{fileName}"
 
 proxiesDF.to_csv(filePath, mode='a', index=False)

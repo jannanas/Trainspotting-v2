@@ -1,35 +1,46 @@
+import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import TimeoutException
 from ..model.Exceptions import *
 import logging
 from .DataExtractorService import DataExtractorService 
 import threading
 import traceback
+from selenium.webdriver.chrome.service import Service
+import os
 
 class QueryService:
 
     def __init__(self, headless=True):
-        threadId = threading.current_thread().getName().split('-')[-1]
-        self.logger = logging.getLogger(f"QueryService {threadId}")
+        # threadId = threading.current_thread().getName().split('-')[-1]
+        self.logger = logging.getLogger(f"QueryService")
 
-        options = webdriver.ChromeOptions()
+        # service = Service(executable_path=r"C:\Users\janne\Documents\Trainspotting-v2\util\chromedriver.exe")
+        # options = webdriver.ChromeOptions()
+        # options.add_argument('--ignore-certificate-errors')
+        # options.add_experimental_option("excludeSwitches", ["enable-logging"])
+        # options.add_argument('--incognito')
+        # if headless:
+        #     options.add_argument('--headless')
+        # self.driver = webdriver.Chrome(service=service, options=options)
+        # # self.driver.set_page_load_timeout(12)
+
+        driverPath = fr"{os.getcwd()}\util\geckodriver.exe"
+        service = Service(executable_path=driverPath)
+        options = webdriver.FirefoxOptions()
+        options.headless = headless
         options.add_argument('--ignore-certificate-errors')
-        options.add_experimental_option("excludeSwitches", ["enable-logging"])
         options.add_argument('--incognito')
-        if headless:
-            options.add_argument('--headless')
-        self.driver = webdriver.Chrome(r"D:\Jannes\Documents\Trainspotting v2\src\miner\util\chromedriver.exe", options=options)
-        # self.driver.set_page_load_timeout(12)
+        self.driver = webdriver.Firefox(service=service, options=options)
+
 
 
     def handleException(self, pageSource):
-        if pageSource == None:
-            raise TimeoutException
-
         soup = BeautifulSoup(pageSource, 'lxml')
         alerts = soup.find_all("div", class_="alert alert-err alert-border-ext alert-square alert-err-back")
 
@@ -51,10 +62,15 @@ class QueryService:
         self.driver.get(url)
 
         try:
-            WebDriverWait(self.driver, 10).until(EC.or() EC.element_to_be_clickable((By.XPATH, '//div[@class="route-item__train-info row"]')))  #//div[@class="alert alert-err alert-border-ext alert-square alert-err-back"], 
-        except TimeoutException:
-            self.handleException(None)
-        except:
+            #Optimize timeout
+            WebDriverWait(self.driver, timeout=13).until(EC.any_of(
+                EC.presence_of_element_located((By.XPATH, '//div[@class="j-sort-prop filter-sort-item active"]')),
+                EC.presence_of_element_located((By.XPATH, '//div[@class="alert alert-err alert-border-ext alert-square alert-err-back"]'))
+            ))
+        except Exception as e:
+            self.handleException(self.driver.page_source)
+
+        if len(self.driver.find_elements(By.XPATH, '//div[@class="alert alert-err alert-border-ext alert-square alert-err-back"]')) > 0:
             self.handleException(self.driver.page_source)
 
         return self.driver.page_source
@@ -62,10 +78,15 @@ class QueryService:
 
     def getQuery(self, fromStationCode, toStationCode, url):
         try:
+            # startRequestTime = time.perf_counter()
             pageSource = self.get(url)
-            journeys = DataExtractorService.extract(fromStationCode, toStationCode, pageSource)
+            # self.logger.debug(f"Got html in {time.perf_counter() - startRequestTime}")
             
-            #Change what is sent back and stored
+            # startExtractTime = time.perf_counter()
+            journeys = DataExtractorService.extract(fromStationCode, toStationCode, pageSource)
+            # self.logger.debug(f"Extracted data in {time.perf_counter() - startExtractTime}")
+
+            #Change what is sent back and stored depening on goal
             return [fromStationCode, toStationCode, len(journeys), None]
         
         except Exception as e:

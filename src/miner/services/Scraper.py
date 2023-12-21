@@ -10,11 +10,13 @@ import urllib
 from concurrent.futures import ThreadPoolExecutor
 import threading
 import numpy as np
+import os
 
 class Scraper:
     # Inject services to reuse them on each call
     def __init__(self):
         self.logger = logging.getLogger("Scraper")
+        self.cwd = os.getcwd()
         self.params = {
             "layer_name": "e3-route",
             "code0": None,
@@ -25,6 +27,7 @@ class Scraper:
             "checkSeats": 0
         }
         self.url = "https://pass.rzd.ru/tickets/public/en?"
+
 
         self.queryService = QueryService(headless=True)
 
@@ -50,7 +53,7 @@ class Scraper:
             for indexFrom in range(1, 2): # fix upper bound
                 fromStationCode = self.codes[indexFrom][3]
 
-                for indexTo in range(indexFrom+1, 102): # fix upper bound
+                for indexTo in range(indexFrom+1, 22): # fix upper bound
                     toStationCode = self.codes[indexTo][3]
 
                     queryInfoList.append((
@@ -69,7 +72,9 @@ class Scraper:
             yield start_date + timedelta(n)
         
     
-    def getCodes(self, path=r"D:\Jannes\Documents\Trainspotting v2\src\miner\util\stationcodes.csv"):
+    def getCodes(self, path=None):
+        if path == None:
+            path = fr"{self.cwd}\util\stationcodes.csv"
         with open(path) as csvfile:
             return list(csv.reader(csvfile))
 
@@ -101,7 +106,7 @@ class Scraper:
 
         # Make filepath dynamic
         fileName = f"journeys_stats_{journeyDate.strftime('%d_%m_%Y')}.parquet"
-        filePath = fr"D:\Jannes\Documents\Trainspotting v2\output\{fileName}"
+        filePath = fr"{self.cwd}\output\{fileName}"
 
         self.logger.info(f"Writing to {fileName}")
         startTime = time.perf_counter()
@@ -115,11 +120,10 @@ class Scraper:
         
         self.logger.debug(f"Building query combos")
         queryListByDate = self.buildQueriesOnDateRange(fromDate, toDate)
-        self.logger.info(f"{len(queryListByDate)} total connections")
 
         for journeyDate, queryList in queryListByDate:
             startTime = time.perf_counter()
-            self.logger.debug(f"Scraping {len(queryList)} journeys on {journeyDate}")
+            self.logger.debug(f"Scraping {len(queryList)} connections on {journeyDate}")
 
             self.scrapeJourneysOnDate(queryList)
 

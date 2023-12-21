@@ -1,0 +1,841 @@
+1703089301123	geckodriver	INFO	Listening on 127.0.0.1:41189
+1703091453706	geckodriver	INFO	Listening on 127.0.0.1:42692
+1703091456795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileD3TAus"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703091457423	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703091457595	Marionette	INFO	Listening on port 42708
+Read port: 42708
+1703091458224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703091489823	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703091464109	Marionette	INFO	Listening on port 42746
+Read port: 42746
+1703091464287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703091495590	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703091536456	geckodriver	INFO	Listening on 127.0.0.1:42846
+1703091539571	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile3JgWg6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703091539985	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703091540091	Marionette	INFO	Listening on port 42859
+Read port: 42859
+1703091540264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703091570728	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703091545585	Marionette	INFO	Listening on port 42895
+Read port: 42895
+1703091545764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703091575746	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703092315104	geckodriver	INFO	Listening on 127.0.0.1:43446
+1703092318194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofilegJ9PYn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703092318561	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703092318665	Marionette	INFO	Listening on port 43459
+Read port: 43459
+1703092318841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092349334	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703092324120	Marionette	INFO	Listening on port 43498
+Read port: 43498
+1703092324322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092354130	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703092524085	geckodriver	INFO	Listening on 127.0.0.1:43706
+1703092527195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofilenMUWNT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703092527726	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703092528067	Marionette	INFO	Listening on port 43719
+Read port: 43719
+1703092528246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092557953	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703092533427	Marionette	INFO	Listening on port 43755
+Read port: 43755
+1703092533614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092564018	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703092571457	geckodriver	INFO	Listening on 127.0.0.1:43872
+1703092574535	mozrunner::runner	INFO	Running command: "C:\\P1703092574839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofilegKBXFB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703092575320	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703092575466	Marionette	INFO	Listening on port 43899
+Read port: 43899
+1703092575747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092578085	geckodriver	INFO	Listening on 127.0.0.1:43935
+1703092581113	mozrunner::runner	INFO	Running command: "C:\\P1703092581638	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileA0rVqd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703092582321	Marionette	INFO1703092582430	Marionette	INFO	Listening on port 43972
+Read 1703092582511703092582528	RemoteAgent	WARN	TLS certificRead port: 43976
+1703092582776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092597697	geckodriver	INFO	Listening on 127.0.0.1:44112
+1703092600791	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile4zUYcB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703092601250	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703092601555	Marionette	INFO	Listening on port 44123
+Read port: 44123
+1703092601713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092632171	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703092606892	Marionette	INFO	Listening on port 44162
+Read port: 44162
+1703092607066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7315 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2446 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703092638424	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703092763534	geckodriver	INFO	Listening on 127.0.0.1:44360
+1703092766562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile15sBoc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703092767113	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703092767515	Marionette	INFO	Listening on port 44374
+Read port: 44374
+1703092767763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703092797167	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703092773440	Marionette	INFO	Listening on port 44411
+Read port: 44411
+1703092773631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2017 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703092803402	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://s0.2mdn.net/sadbundle/12704396166587657338/index.html?e=69&leftOffset=0&topOffset=0&c=kQMPVu7EZ8&t=1&renderingType=2&ev=01_250, line 896: SyntaxError: unexpected token: numeric literal
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 3129 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703092839775	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: ({})
+JavaScript error: https://htmledit.squarefree.com/, line 2: SyntaxError: invalid escape sequence
+JavaScript error: https://htmledit.squarefree.com/, line 2: SyntaxError: invalid escape sequence
+JavaScript error: https://htmledit.squarefree.com/, line 2: SyntaxError: invalid escape sequence
+JavaScript error: https://htmledit.squarefree.com/, line 2: SyntaxError: invalid escape sequence
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: NineNineFiveFive is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: Nine3TwoZero is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: FourZeroOneOne is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: Nine3TwoZero is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: NineNineFiveFive is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: NineNineFiveFive is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: NineNineFiveFive is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: Nine3TwoZero is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: OneNineFourSix is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: FourZeroOneOne is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: Nine3TwoZero is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: NineNineFiveFive is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: ReferenceError: SixFourNineTwo is not defined
+JavaScript error: https://htmledit.squarefree.com/, line 2: SyntaxError: invalid escape sequence
+JavaScript error: https://htmledit.squarefree.com/, line 2: SyntaxError: invalid escape sequence
+JavaScript error: https://fundingchoicesmessages.google.com/f/AGSKWxWW4HG-I9AfhU0QXU9mlylwo6YcFJGW7_2gYo5gzUBs8TwNrBnnCSX0cfvws8CKPsNwbZn4ClyTsKM9rsWPiqMvhtabWbVrBWyJhpxU7AvVXHglvu40zB0O9WZ8Q5j69csMR49e6w==?fccs=W251bGwsbnVsbCxbIkNQM0ZkRUFQM0ZkRUFFc0FDQkVOQWZFb0FQX2dBRVBnQUNLZ0lOSkQ3RDdGYlNGQ3dIcHphTHNBTUFoSFJzQ0FRb1FBQUFTQkFtQUJRQUtRSUFRQ2drQVFGQVNnQkFBQ0FBQUFJQ1pCSVFBRUNBQUFBVUFBUUFBQUFBRUVBQUFBQUFBSUlBQUFnQUVBQUFBSUFBQUNBSUFBRUFBSUFBQUFFQUFBbUFnQUFJSUFDQUFBaEFBQUFBQUFBQUFBQUFBQUFnQUFBQUFBQUFBQUFBQUFBQUFBQVFRYVFEMkYySzJrS0ZrUENtUVdZQVFCQ2lqWUVBaFFBQUFBa0NCSUFBZ0FVZ1FBZ0ZJSUFnQUlGQUFBQUFBQUFBUUVnQ1FBQVFBQkFBQUlBQ2dBQUFBQUFJQUFBQUFBQVFRQUFBQUFJQUFBQUFBQUFFQVFBQUFBQVFBQUFBSUFBQkVoQ0FBUVFBRUFBQUFBQUFRQUFBQUFBQUFBQUFCQUFBQUFBQUFBQUFBQUFBQUFBQUFnQUEuWWdBQUFBQUFBQUEiLCIxfjIwNzIuNzAuODkuOTMuMTA4LjEyMi4xNDkuMTk2LjIyNTMuMjI5OS4yNTkuMjM1Ny4zMTEuMzEzLjMxNy4zMjMuMjM3My4zMzguMzU4LjI0MTUuNDE1LjQ0OS4yNTA2LjI1MjYuNDgyLjQ4Ni40OTQuNDk1LjI1NjguMjU3MS4yNTc1LjU0MC41NzQuMjYyNC42MDkuMjY3Ny44NjQuOTgxLjEwMjkuMTA0OC4xMDUxLjEwOTUuMTA5Ny4xMjAxLjEyMDUuMTIxMS4xMjc2LjEzMDEuMTM0NC4xMzY1LjE0MTUuMTQ0OS4xNDUxLjE1NzAuMTU3Ny4xNTk4LjE2NTEuMTcxNi4xNzM1LjE3NTMuMTc2NS4xODcwLjE4NzguMTg4OS4xOTU4LjE5NjAiXSxudWxsLG51bGwsbnVsbCxbMTcwMzA5Mjc4NiwyMDUwMDAwMDBdLG51bGwsbnVsbCxudWxsLFtudWxsLFs3XV0sImh0dHBzOi8vc3B5cy5vbmUvZnJlZS1wcm94eS1saXN0L1JVLyIsbnVsbCxbWzgsIlV2RkJRUjM0UzVVIl0sWzksImVuLVVTIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIxIl1dXQ, line 1: ReferenceError: __googlefc is not defined
+JavaScript error: https://fundingchoicesmessages.google.com/f/AGSKWxXiTMbyRz0eRIptlGxkuFJ1lV96GXobmkIffL_FTMyCqtAVf0HK9zi2GW-mLuN2kfC-bdvX2GX5gmPC5QEVDemRbNonztcuDMlaszXYpMV3oamdoJhn_TrNrR4523GyYF5StF7NBA==?fccs=W251bGwsbnVsbCxbIkNQM0ZkRUFQM0ZkRUFFc0FDQkVOQWZFb0FQX2dBRVBnQUNLZ0lOSkQ3RDdGYlNGQ3dIcHphTHNBTUFoSFJzQ0FRb1FBQUFTQkFtQUJRQUtRSUFRQ2drQVFGQVNnQkFBQ0FBQUFJQ1pCSVFBRUNBQUFBVUFBUUFBQUFBRUVBQUFBQUFBSUlBQUFnQUVBQUFBSUFBQUNBSUFBRUFBSUFBQUFFQUFBbUFnQUFJSUFDQUFBaEFBQUFBQUFBQUFBQUFBQUFnQUFBQUFBQUFBQUFBQUFBQUFBQVFRYVFEMkYySzJrS0ZrUENtUVdZQVFCQ2lqWUVBaFFBQUFBa0NCSUFBZ0FVZ1FBZ0ZJSUFnQUlGQUFBQUFBQUFBUUVnQ1FBQVFBQkFBQUlBQ2dBQUFBQUFJQUFBQUFBQVFRQUFBQUFJQUFBQUFBQUFFQVFBQUFBQVFBQUFBSUFBQkVoQ0FBUVFBRUFBQUFBQUFRQUFBQUFBQUFBQUFCQUFBQUFBQUFBQUFBQUFBQUFBQUFnQUEuWWdBQUFBQUFBQUEiLCIxfjIwNzIuNzAuODkuOTMuMTA4LjEyMi4xNDkuMTk2LjIyNTMuMjI5OS4yNTkuMjM1Ny4zMTEuMzEzLjMxNy4zMjMuMjM3My4zMzguMzU4LjI0MTUuNDE1LjQ0OS4yNTA2LjI1MjYuNDgyLjQ4Ni40OTQuNDk1LjI1NjguMjU3MS4yNTc1LjU0MC41NzQuMjYyNC42MDkuMjY3Ny44NjQuOTgxLjEwMjkuMTA0OC4xMDUxLjEwOTUuMTA5Ny4xMjAxLjEyMDUuMTIxMS4xMjc2LjEzMDEuMTM0NC4xMzY1LjE0MTUuMTQ0OS4xNDUxLjE1NzAuMTU3Ny4xNTk4LjE2NTEuMTcxNi4xNzM1LjE3NTMuMTc2NS4xODcwLjE4NzguMTg4OS4xOTU4LjE5NjAiXSxudWxsLG51bGwsbnVsbCxbMTcwMzA5Mjc4OSw2NTYwMDAwMDBdLG51bGwsbnVsbCxudWxsLFtudWxsLFs3LDksNl0sbnVsbCwxLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsMV0sImh0dHBzOi8vc3B5cy5vbmUvZnJlZS1wcm94eS1saXN0L1JVLyIsbnVsbCxbWzgsIlV2RkJRUjM0UzVVIl0sWzksImVuLVVTIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIxIl1dXQ, line 1: ReferenceError: __googlefc is not defined
+JavaScript error: https://fundingchoicesmessages.google.com/f/AGSKWxXNMVNQYELloBaT2IuOZQ7ky_1cpbo59sR6Rlg5haPR4A65XKNq-cn703ibTTlqQqtF4zOPKVdjFOv9ubpDjmfTKOIDmdPMRKj_yQ1d8I4qFJxEGpNcMKzYlwARDv6uVHKSQa-dAQ==?fccs=W251bGwsbnVsbCxbIkNQM0ZkRUFQM0ZkRUFFc0FDQkVOQWZFb0FQX2dBRVBnQUNLZ0lOSkQ3RDdGYlNGQ3dIcHphTHNBTUFoSFJzQ0FRb1FBQUFTQkFtQUJRQUtRSUFRQ2drQVFGQVNnQkFBQ0FBQUFJQ1pCSVFBRUNBQUFBVUFBUUFBQUFBRUVBQUFBQUFBSUlBQUFnQUVBQUFBSUFBQUNBSUFBRUFBSUFBQUFFQUFBbUFnQUFJSUFDQUFBaEFBQUFBQUFBQUFBQUFBQUFnQUFBQUFBQUFBQUFBQUFBQUFBQVFRYVFEMkYySzJrS0ZrUENtUVdZQVFCQ2lqWUVBaFFBQUFBa0NCSUFBZ0FVZ1FBZ0ZJSUFnQUlGQUFBQUFBQUFBUUVnQ1FBQVFBQkFBQUlBQ2dBQUFBQUFJQUFBQUFBQVFRQUFBQUFJQUFBQUFBQUFFQVFBQUFBQVFBQUFBSUFBQkVoQ0FBUVFBRUFBQUFBQUFRQUFBQUFBQUFBQUFCQUFBQUFBQUFBQUFBQUFBQUFBQUFnQUEuWWdBQUFBQUFBQUEiLCIxfjIwNzIuNzAuODkuOTMuMTA4LjEyMi4xNDkuMTk2LjIyNTMuMjI5OS4yNTkuMjM1Ny4zMTEuMzEzLjMxNy4zMjMuMjM3My4zMzguMzU4LjI0MTUuNDE1LjQ0OS4yNTA2LjI1MjYuNDgyLjQ4Ni40OTQuNDk1LjI1NjguMjU3MS4yNTc1LjU0MC41NzQuMjYyNC42MDkuMjY3Ny44NjQuOTgxLjEwMjkuMTA0OC4xMDUxLjEwOTUuMTA5Ny4xMjAxLjEyMDUuMTIxMS4xMjc2LjEzMDEuMTM0NC4xMzY1LjE0MTUuMTQ0OS4xNDUxLjE1NzAuMTU3Ny4xNTk4LjE2NTEuMTcxNi4xNzM1LjE3NTMuMTc2NS4xODcwLjE4NzguMTg4OS4xOTU4LjE5NjAiXSxudWxsLG51bGwsbnVsbCxbMTcwMzA5Mjc4OSw3NjQwMDAwMDBdLG51bGwsbnVsbCxudWxsLFtudWxsLFs3LDksNiwxMF0sbnVsbCwxLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsMV0sImh0dHBzOi8vc3B5cy5vbmUvZnJlZS1wcm94eS1saXN0L1JVLyIsbnVsbCxbWzgsIlV2RkJRUjM0UzVVIl0sWzksImVuLVVTIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIxIl1dXQ, line 1: ReferenceError: __googlefc is not defined
+JavaScript error: https://fundingchoicesmessages.google.com/f/AGSKWxUfHTpiedYoOHWQIfqaXXDdqBZOEg_GgDCAgfAWBbS2UwMHA4XXseDfqSPjzhoeGrF54br7zuTu-HIpPpzpbOUGnKQMXGCe-byYw6hlMDEyHJSWX9malDG9sXjSPvymzUEhRYPXmw==?fccs=W251bGwsbnVsbCxbIkNQM0ZkRUFQM0ZkRUFFc0FDQkVOQWZFb0FQX2dBRVBnQUNLZ0lOSkQ3RDdGYlNGQ3dIcHphTHNBTUFoSFJzQ0FRb1FBQUFTQkFtQUJRQUtRSUFRQ2drQVFGQVNnQkFBQ0FBQUFJQ1pCSVFBRUNBQUFBVUFBUUFBQUFBRUVBQUFBQUFBSUlBQUFnQUVBQUFBSUFBQUNBSUFBRUFBSUFBQUFFQUFBbUFnQUFJSUFDQUFBaEFBQUFBQUFBQUFBQUFBQUFnQUFBQUFBQUFBQUFBQUFBQUFBQVFRYVFEMkYySzJrS0ZrUENtUVdZQVFCQ2lqWUVBaFFBQUFBa0NCSUFBZ0FVZ1FBZ0ZJSUFnQUlGQUFBQUFBQUFBUUVnQ1FBQVFBQkFBQUlBQ2dBQUFBQUFJQUFBQUFBQVFRQUFBQUFJQUFBQUFBQUFFQVFBQUFBQVFBQUFBSUFBQkVoQ0FBUVFBRUFBQUFBQUFRQUFBQUFBQUFBQUFCQUFBQUFBQUFBQUFBQUFBQUFBQUFnQUEuWWdBQUFBQUFBQUEiLCIxfjIwNzIuNzAuODkuOTMuMTA4LjEyMi4xNDkuMTk2LjIyNTMuMjI5OS4yNTkuMjM1Ny4zMTEuMzEzLjMxNy4zMjMuMjM3My4zMzguMzU4LjI0MTUuNDE1LjQ0OS4yNTA2LjI1MjYuNDgyLjQ4Ni40OTQuNDk1LjI1NjguMjU3MS4yNTc1LjU0MC41NzQuMjYyNC42MDkuMjY3Ny44NjQuOTgxLjEwMjkuMTA0OC4xMDUxLjEwOTUuMTA5Ny4xMjAxLjEyMDUuMTIxMS4xMjc2LjEzMDEuMTM0NC4xMzY1LjE0MTUuMTQ0OS4xNDUxLjE1NzAuMTU3Ny4xNTk4LjE2NTEuMTcxNi4xNzM1LjE3NTMuMTc2NS4xODcwLjE4NzguMTg4OS4xOTU4LjE5NjAiXSxudWxsLG51bGwsbnVsbCxbMTcwMzA5Mjc4Niw1NjQwMDAwMDBdLG51bGwsbnVsbCxudWxsLFtudWxsLFs3LDldLG51bGwsMV0sImh0dHBzOi8vc3B5cy5vbmUvZnJlZS1wcm94eS1saXN0L1JVLyIsbnVsbCxbWzgsIlV2RkJRUjM0UzVVIl0sWzksImVuLVVTIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIxIl1dXQ, line 1: ReferenceError: __googlefc is not defined
+1703092988198	geckodriver	INFO	Listening on 127.0.0.1:44712
+1703092991296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileZDkEc4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703092992101	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703092992505	Marionette	INFO	Listening on port 44726
+Read port: 44726
+1703092992701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703093023981	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703092998222	Marionette	INFO	Listening on port 44769
+Read port: 44769
+1703092998303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1470 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7675 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 3292 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703093028104	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703093050913	geckodriver	INFO	Listening on 127.0.0.1:44955
+1703093053958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileljmDlL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703093054627	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703093055083	Marionette	INFO	Listening on port 44969
+Read port: 44969
+1703093055318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703093085376	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703093060751	Marionette	INFO	Listening on port 45013
+Read port: 45013
+1703093060983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703093071890	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2393 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7403 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 4475 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703093092108	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703093132005	geckodriver	INFO	Listening on 127.0.0.1:45180
+1703093135081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile4LRgJu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703093135595	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703093136005	Marionette	INFO	Listening on port 45193
+Read port: 45193
+1703093136229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703093166712	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703093141723	Marionette	INFO	Listening on port 45230
+Read port: 45230
+1703093141949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7333 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703093172350	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703093201756	geckodriver	INFO	Listening on 127.0.0.1:45367
+1703093204868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileNUdBUY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703093205371	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703093205681	Marionette	INFO	Listening on port 45378
+Read port: 45378
+1703093205860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703093235441	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703093211045	Marionette	INFO	Listening on port 45416
+Read port: 45416
+1703093211270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703093241064	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 5736 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6076 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 350 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH, line 532: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:532:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:412
+
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914, line 43: Script terminated by timeout at:
+Sa/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:578
+Sa@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:552
+Ua@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:304
+Ra.prototype.flush@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:127
+Ta@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:466
+Jh/c/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:148:292
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+nd/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:93:671
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1703093369220	geckodriver	INFO	Listening on 127.0.0.1:45679
+1703093372272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileM76Lzr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703093372765	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703093373089	Marionette	INFO	Listening on port 45692
+Read port: 45692
+1703093373277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703093403040	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703093378561	Marionette	INFO	Listening on port 45733
+Read port: 45733
+1703093378799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703093410361	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6570 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7729 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 4158 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914, line 135: Script terminated by timeout at:
+get@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:135:119
+qn/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:242:182
+qn@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:242:101
+wn/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:243:1898
+Lc.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:85:513
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Kf.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:118:115
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Lc.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:85:601
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:107:194
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+fn/</k/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:237:1969
+Ua@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:339
+Ra.prototype.flush@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:147
+Ta@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:466
+Jh/c/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:148:292
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+nd/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:93:671
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 779 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1840 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703093910007	geckodriver	INFO	Listening on 127.0.0.1:46243
+1703093913114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileUwJoj2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703093913982	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703093914389	Marionette	INFO	Listening on port 46256
+Read port: 46256
+1703093914602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703093944472	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703093920232	Marionette	INFO	Listening on port 46299
+Read port: 46299
+1703093920444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703093950145	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8389ab14498a913d, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH, line 532: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:532:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:412
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8389abf52a90913d, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH, line 532: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:532:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:412
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH, line 532: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:532:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:412
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8389aef4cd986921, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH, line 530: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:412
+
+1703094169611	Marionette	INFO	Stopped listening on port 46299
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1703094181632	geckodriver	INFO	Listening on 127.0.0.1:46539
+1703094184718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile2bvsjF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703094185235	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703094185545	Marionette	INFO	Listening on port 46549
+Read port: 46549
+1703094185720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703094217548	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703094191017	Marionette	INFO	Listening on port 46585
+Read port: 46585
+1703094191253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/SelectChild.sys.mjs, line 289: TypeError: this.element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703094221143	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH, line 545: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:545:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:543:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:543:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:543:412
+
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703094597944	geckodriver	INFO	Listening on 127.0.0.1:46792
+1703094601054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile0CSEEI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703094601564	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703094601901	Marionette	INFO	Listening on port 46803
+Read port: 46803
+1703094602080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703094631652	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703094607363	Marionette	INFO	Listening on port 46843
+Read port: 46843
+1703094607567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6307 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 5617 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1916 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914, line 243: Script terminated by timeout at:
+un@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:243:990
+tn@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:248:733
+wn/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:243:1958
+Lc.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:85:513
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:78:916
+n.ki@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:80:1940
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Kf.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:118:115
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Lc.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:85:601
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:107:194
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+fn/</k/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:237:1969
+Ua@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:339
+Ra.prototype.flush@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:147
+Ta@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:466
+Jh/c/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:148:292
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+nd/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:93:671
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1703094635204	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1703094637208	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 4233 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7406 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6731 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7069 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH, line 532: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:532:89
+get@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-XWX5S73YKH:530:412
+
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914, line 71: Script terminated by timeout at:
+I.prototype.add@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:71:25
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:116:543
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+xd.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:97:1267
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.ta@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:98:367
+Wc.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:87:1342
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Jh/c/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:148:320
+Ua@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:339
+Ra.prototype.flush@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:127
+Ta@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:466
+Jh/c/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:148:292
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+nd/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:93:671
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1703098486848	geckodriver	INFO	Listening on 127.0.0.1:49686
+1703098489951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileNLH9Ra"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703098490690	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703098491088	Marionette	INFO	Listening on port 49697
+Read port: 49697
+1703098491292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703098521686	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703098500791	Marionette	INFO	Listening on port 49747
+Read port: 49747
+1703098501026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703098530900	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703099292995	geckodriver	INFO	Listening on 127.0.0.1:50334
+1703099296037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofiletzHq3H"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703099297054	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703099297622	Marionette	INFO	Listening on port 50348
+Read port: 50348
+1703099297994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703099328527	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703099304360	Marionette	INFO	Listening on port 50386
+Read port: 50386
+1703099304555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703099334450	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703099369642	geckodriver	INFO	Listening on 127.0.0.1:50497
+1703099372745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofilewIuqa6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703099373379	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703099373822	Marionette	INFO	Listening on port 50508
+Read port: 50508
+1703099374037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703099403756	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703099379727	Marionette	INFO	Listening on port 50550
+Read port: 50550
+1703099379942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703099409924	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703099504356	geckodriver	INFO	Listening on 127.0.0.1:50702
+1703099507441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileeVgeFH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703099508133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703099508480	Marionette	INFO	Listening on port 50714
+Read port: 50714
+1703099508659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703099540127	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703099513761	Marionette	INFO	Listening on port 50751
+Read port: 50751
+1703099513959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703099544065	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703099935655	geckodriver	INFO	Listening on 127.0.0.1:50959
+1703099938764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileesUglU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703099939248	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703099939564	Marionette	INFO	Listening on port 50970
+Read port: 50970
+1703099939744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703099941436	geckodriver	INFO	Listening on 127.0.0.1:50983
+1703099944521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofilepD1IAM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703099944924	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703099945034	Marionette	INFO	Listening on port 51003
+Read port: 51003
+1703099945215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703156678898	geckodriver	INFO	Listening on 127.0.0.1:37917
+1703156681924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile6XokAL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703156684361	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703156685681	Marionette	INFO	Listening on port 37928
+Read port: 37928
+1703156686415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703156714632	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703156695748	Marionette	INFO	Listening on port 37982
+Read port: 37982
+1703156696100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703156726777	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703156856659	geckodriver	INFO	Listening on 127.0.0.1:38201
+1703156859764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofiler1vIc7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703156860724	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703156861074	Marionette	INFO	Listening on port 38216
+Read port: 38216
+1703156861267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703156891574	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703156867839	Marionette	INFO	Listening on port 38257
+Read port: 38257
+1703156868097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703156897612	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703157049171	geckodriver	INFO	Listening on 127.0.0.1:38384
+1703157052251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofilecipaWP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703157053212	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703157053543	Marionette	INFO	Listening on port 38395
+Read port: 38395
+1703157053732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703157084078	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+n 0
+1703157060432	Marionette	INFO	Listening on port 38437
+Read port: 38437
+1703157061127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://spys.one."
+1703157090031	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703158619170	geckodriver	INFO	Listening on 127.0.0.1:49341
+1703158622232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofilePScE3p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703158623245	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703158623703	Marionette	INFO	Listening on port 49353
+Read port: 49353
+1703158623924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703158653549	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703158704838	geckodriver	INFO	Listening on 127.0.0.1:49431
+1703158707907	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofile5coCDj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703158708782	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703158709264	Marionette	INFO	Listening on port 49441
+Read port: 49441
+1703158709488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703158739762	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703158793126	geckodriver	INFO	Listening on 127.0.0.1:49519
+1703158796158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\janne\\AppData\\Local\\Temp\\rust_mozprofileE8WZoc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703158796823	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703158797285	Marionette	INFO	Listening on port 49532
+Read port: 49532
+1703158797559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pass.rzd.ru/js/third-party/main_17352_2be51625_563_1763.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703158827940	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
