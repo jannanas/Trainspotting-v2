@@ -81,8 +81,8 @@ class AsyncQueryService:
 
 test = AsyncQueryService()
 urls = []
-for i in range(8):
-    urls.append("https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=20.12.2023&tfl=3&md=0&checkSeats=0")
+for i in range(1):
+    urls.append("https://pass.rzd.ru/tickets/public/en?layer_name=e3-route&code0=2000000&code1=2004000&dt0=20.04.2024&tfl=3&md=0&checkSeats=0")
 
 start = time.perf_counter()
 responses = asyncio.run(test.main(urls))
